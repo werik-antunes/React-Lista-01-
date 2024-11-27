@@ -1,13 +1,14 @@
 
 import './App.css'
-import OlaMundo from './components/OlaMundo'
+import Saudacao from './components/Saudacao'
+
 
 function App() {
   
 
   return (
     <>
-     <OlaMundo/>
+    <Saudacao/>
     </>
   )
 }
