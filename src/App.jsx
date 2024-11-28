@@ -1,6 +1,7 @@
 
 import './App.css'
-import Saudacao from './components/Saudacao'
+import ListaOrdenada from './components/ListaOrdenada'
+
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
 
   return (
     <>
-    <Saudacao/>
+    <h1>Minha Lista de Tarefas</h1>
+    <ListaOrdenada/>
     </>
   )
 }
