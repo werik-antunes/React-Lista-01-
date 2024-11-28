@@ -1,13 +1,14 @@
 
 import './App.css'
-import Botao from './components/Botao'
+import LinkReactJS from './components/LinkReactJS'
+
 
 function App() {
   
   return (
     <>
-      <h1>Exemplo de Botão</h1>
-      <Botao/>
+      <h1>Saiba mais sobre React</h1>
+      <LinkReactJS/>
     </>
   )
 }
