@@ -1,17 +1,15 @@
 
-import './App.css'
-import FragmentoExemplo from './components/FragmentoExemplo'
 
-
+import React from "react";
+import ImagemExemplo from "./ImagemExemplo";
 
 function App() {
-  
   return (
-    <>
-        <h1>Exemplo de Fragmentos no React</h1>
-        <FragmentoExemplo />
-    </>
-  )
+    <div>
+      <h1>Exemplo de Renderização de Imagem</h1>
+      <ImagemExemplo />
+    </div>
+  );
 }
 
-export default App
+export default App;
