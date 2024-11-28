@@ -1,15 +1,14 @@
 
 import './App.css'
-import Saudacao from './components/Saudacao'
-
+import DivComEstilo from './components/DivComEstilo'
 
 
 function App() {
-  const isDia = true;
+  
   return (
     <>
-      <h1>Exemplo de Saudação Condicional</h1>
-      <Saudacao isDia={isDia} />
+       <h1>Exemplo de Div com Estilo</h1>
+       <DivComEstilo/>
     </>
   )
 }
