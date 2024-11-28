@@ -1,14 +1,15 @@
 
 import './App.css'
-import DivComEstilo from './components/DivComEstilo'
+import FragmentoExemplo from './components/FragmentoExemplo'
+
 
 
 function App() {
   
   return (
     <>
-       <h1>Exemplo de Div com Estilo</h1>
-       <DivComEstilo/>
+        <h1>Exemplo de Fragmentos no React</h1>
+        <FragmentoExemplo />
     </>
   )
 }
