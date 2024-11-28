@@ -1,13 +1,15 @@
 
 import './App.css'
-import TituloESubtitulo from './components/TituloESubtitulo'
+import Saudacao from './components/Saudacao'
+
 
 
 function App() {
-  
+  const isDia = true;
   return (
     <>
-      <TituloESubtitulo />
+      <h1>Exemplo de Saudação Condicional</h1>
+      <Saudacao isDia={isDia} />
     </>
   )
 }
