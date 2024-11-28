@@ -1,16 +1,13 @@
 
 import './App.css'
-import ListaOrdenada from './components/ListaOrdenada'
-
-
+import Botao from './components/Botao'
 
 function App() {
   
-
   return (
     <>
-    <h1>Minha Lista de Tarefas</h1>
-    <ListaOrdenada/>
+      <h1>Exemplo de Botão</h1>
+      <Botao/>
     </>
   )
 }
