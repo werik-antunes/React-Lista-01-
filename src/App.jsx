@@ -1,14 +1,13 @@
 
 import './App.css'
-import LinkReactJS from './components/LinkReactJS'
+import TituloESubtitulo from './components/TituloESubtitulo'
 
 
 function App() {
   
   return (
     <>
-      <h1>Saiba mais sobre React</h1>
-      <LinkReactJS/>
+      <TituloESubtitulo />
     </>
   )
 }
